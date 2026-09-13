@@ -166,6 +166,20 @@ a {
   object-fit: cover;
 }
 
+.hero__map-photo-wrap {
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  margin-bottom: var(--space-base);
+  background: var(--color-surface-soft);
+}
+
+.hero__map-photo {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1.88 / 1;
+  object-fit: cover;
+}
+
 .hero__title {
   font-size: var(--fs-display-xl);
   font-weight: 700;
@@ -270,6 +284,10 @@ a {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   gap: var(--space-sm);
+}
+
+.info-section--location .info-section__media {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .info-section__photo-wrap {

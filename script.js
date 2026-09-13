@@ -118,6 +118,18 @@
     if (data.subtitle) {
       hero.appendChild(el("p", { class: "hero__subtitle" }, [data.subtitle]));
     }
+    if (data.heroMapPhoto && data.heroMapPhoto.src) {
+      const mapWrap = el("div", { class: "hero__map-photo-wrap" });
+      const mapImg = el("img", {
+        class: "hero__map-photo",
+        src: resolvePhotoSrc(data.heroMapPhoto.src),
+        alt: data.heroMapPhoto.alt || "",
+        loading: "lazy",
+        style: `aspect-ratio:${data.heroMapPhoto.aspectRatio || "16/9"}`,
+      });
+      mapWrap.appendChild(mapImg);
+      hero.appendChild(mapWrap);
+    }
     if (data.heroLead) {
       hero.appendChild(el("p", { class: "hero__lead" }, [data.heroLead]));
     }
@@ -201,7 +213,7 @@
 
   function renderSectionBlock(section, data) {
     const sectionEl = el("section", {
-      class: "info-section",
+      class: `info-section info-section--${section.key}`,
       "aria-labelledby": `section-${section.key}-title`,
     });
     const inner = el("div", { class: "info-section__inner" });
