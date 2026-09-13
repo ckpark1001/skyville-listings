@@ -11,7 +11,7 @@
   "heroMapPhoto": {
     "src": "photos/map-1.png",
     "alt": "보문역 1번 출구에서 1분거리(58m) 위치를 보여주는 지도",
-    "aspectRatio": "1.88/1"
+    "aspectRatio": "1.54/1"
   },
   "summary": {
     "deposit": "8,500만 원",
@@ -170,7 +170,7 @@
         {
           "src": "photos/map-1.png",
           "alt": "보문역 1번 출구에서 1분거리(58m) 위치를 보여주는 지도",
-          "aspectRatio": "1.88/1"
+          "aspectRatio": "1.54/1"
         }
       ],
       "keywords": ["보문역 1번 출구 1분거리(58m)", "성북천 산책·러닝", "동대문시장 인접"]
