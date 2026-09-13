@@ -46,6 +46,11 @@
           "src": "photos/room-laundry-1.jpg",
           "alt": "옵션으로 제공되는 세탁기",
           "aspectRatio": "4/3"
+        },
+        {
+          "src": "photos/room-bathroom-1.png",
+          "alt": "방과 분리된 화장실 공간",
+          "aspectRatio": "4/3"
         }
       ],
       "keywords": ["풀옵션", "화장실·세탁공간 분리", "약 6평"]
