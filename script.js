@@ -174,8 +174,6 @@
   }
 
   function renderMap(container, locationData) {
-    const mapBox = el("div", { class: "map-container", id: "naver-map" });
-    container.appendChild(mapBox);
     container.appendChild(
       el("p", { class: "map-address" }, [`주소: ${locationData.address}`])
     );
@@ -183,6 +181,9 @@
     if (!NAVER_MAP_CLIENT_ID || !locationData.map) {
       return; // Client ID 미설정 시 주소 텍스트만 노출하고 지도는 생략 (Edge Case)
     }
+
+    const mapBox = el("div", { class: "map-container", id: "naver-map" });
+    container.appendChild(mapBox);
 
     const scriptId = "naver-maps-sdk";
     function initMap() {
