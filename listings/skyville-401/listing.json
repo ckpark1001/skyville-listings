@@ -1,10 +1,10 @@
 {
   "id": "skyville-401",
   "title": "스카이빌",
-  "subtitle": "보문역 1번 출구 30m 초역세권 · 풀옵션 원룸",
-  "heroLead": "보문역 1번 출구에서 도보 30m 거리에 위치한 깔끔한 풀옵션 원룸입니다. LH·SH·중기청 등 전세대출이 가능하며, 융자 없는 안전한 집이라 안심하고 계약하실 수 있습니다. 집주인이 대기업·은행권에 재직 중이라 더욱 신뢰할 수 있는 매물입니다.",
+  "subtitle": "보문역 1번 출구 1분거리(58m) 초역세권 · 풀옵션 원룸",
+  "heroLead": "보문역 1번 출구에서 도보 1분(58m) 거리에 위치한 깔끔한 풀옵션 원룸입니다. LH·SH·중기청 등 전세대출이 가능하며, 융자 없는 안전한 집이라 안심하고 계약하실 수 있습니다. 집주인이 대기업·은행권에 재직 중이라 더욱 신뢰할 수 있는 매물입니다.",
   "heroPhoto": {
-    "src": "photos/hero-1.webp",
+    "src": "photos/hero-1.jpg",
     "alt": "스카이빌 방 전체 전경(침대, TV, 주방까지 한눈에 보이는 전경)",
     "aspectRatio": "4/3"
   },
@@ -28,14 +28,19 @@
       ],
       "photos": [
         {
-          "src": "photos/room-wide-1.webp",
+          "src": "photos/room-wide-1.jpg",
           "alt": "스카이빌 방 전체 전경",
           "aspectRatio": "4/3"
         },
         {
-          "src": "photos/room-wide-2.webp",
+          "src": "photos/room-wide-2.jpg",
           "alt": "침대, 에어컨, TV가 배치된 방 내부",
-          "aspectRatio": "16/9"
+          "aspectRatio": "2.1/1"
+        },
+        {
+          "src": "photos/room-laundry-1.jpg",
+          "alt": "옵션으로 제공되는 세탁기",
+          "aspectRatio": "3/4"
         }
       ],
       "keywords": ["풀옵션", "화장실·세탁공간 분리", "약 6평"]
@@ -49,9 +54,14 @@
       ],
       "photos": [
         {
-          "src": "photos/kitchen-1.webp",
-          "alt": "247L 냉장고와 싱크대, 가스레인지가 있는 주방",
+          "src": "photos/kitchen-1.jpg",
+          "alt": "싱크대와 가스레인지가 있는 주방",
           "aspectRatio": "3/4"
+        },
+        {
+          "src": "photos/kitchen-2.jpg",
+          "alt": "247L 대용량 냉장고",
+          "aspectRatio": "4/3"
         }
       ],
       "keywords": ["247L 냉장고", "가스레인지", "수납장"]
@@ -65,8 +75,13 @@
       ],
       "photos": [
         {
-          "src": "photos/bathroom-1.webp",
+          "src": "photos/bathroom-1.jpg",
           "alt": "세면대와 양변기가 있는 화장실",
+          "aspectRatio": "3/4"
+        },
+        {
+          "src": "photos/bathroom-2.jpg",
+          "alt": "깔끔하게 관리되는 욕실 내부",
           "aspectRatio": "3/4"
         }
       ],
@@ -81,7 +96,7 @@
       ],
       "photos": [
         {
-          "src": "photos/doorlock-1.webp",
+          "src": "photos/doorlock-1.jpg",
           "alt": "세대 현관 도어락 클로즈업",
           "aspectRatio": "3/4"
         }
@@ -97,19 +112,24 @@
       ],
       "photos": [
         {
-          "src": "photos/elevator-1.webp",
+          "src": "photos/elevator-1.jpg",
           "alt": "건물 엘리베이터 입구",
           "aspectRatio": "3/4"
         },
         {
-          "src": "photos/parking-1.webp",
+          "src": "photos/parking-1.jpg",
           "alt": "건물 주차장 공간",
           "aspectRatio": "1/1"
         },
         {
-          "src": "photos/corridor-1.webp",
+          "src": "photos/corridor-1.jpg",
           "alt": "넓고 깨끗한 건물 복도",
           "aspectRatio": "4/3"
+        },
+        {
+          "src": "photos/building-view-1.jpg",
+          "alt": "건물 외부 전망",
+          "aspectRatio": "3/4"
         }
       ],
       "keywords": ["엘리베이터", "주차 가능", "넓고 깨끗한 복도"]
@@ -118,27 +138,32 @@
       "key": "location",
       "heading": "성북천을 곁에 둔 초역세권",
       "body": [
-        "6호선 보문역 1번 출구에서 도보 30m 거리이며, 우이신설선도 함께 이용할 수 있습니다. 편의점, 카페, 주민센터, 이마트 등 생활 편의시설이 가까이 있고, 동대문시장도 대중교통으로 약 10분이면 닿습니다.",
+        "6호선 보문역 1번 출구에서 도보 1분(58m) 거리이며, 우이신설선도 함께 이용할 수 있습니다. 편의점, 카페, 주민센터, 이마트 등 생활 편의시설이 가까이 있고, 동대문시장도 대중교통으로 약 10분이면 닿습니다.",
         "밤이 되면 바로 근처 성북천에 러닝이나 산책을 나온 사람들을 많이 볼 수 있습니다. 조명이 밝고 산책로가 깔끔하게 정비되어 있어 반려동물과 함께 걷기에도, 혼자 가볍게 달리기에도 좋습니다. 성북천 주변에는 분위기 좋은 카페들도 있어 야외 테라스에서 시간을 보내기 좋습니다."
       ],
       "photos": [
         {
-          "src": "photos/stream-night-1.webp",
+          "src": "photos/stream-night-1.jpg",
           "alt": "밤에 조명이 켜진 성북천 산책로",
           "aspectRatio": "4/3"
         },
         {
-          "src": "photos/stream-night-2.webp",
+          "src": "photos/stream-night-2.jpg",
           "alt": "성북천을 따라 이어지는 야경과 아파트 단지",
           "aspectRatio": "4/3"
         },
         {
-          "src": "photos/neighborhood-night-1.webp",
-          "alt": "동네 카페 거리의 야경",
+          "src": "photos/stream-night-3.jpg",
+          "alt": "성북천 산책로 야경",
           "aspectRatio": "4/3"
+        },
+        {
+          "src": "photos/map-1.png",
+          "alt": "보문역 1번 출구에서 1분거리(58m) 위치를 보여주는 지도",
+          "aspectRatio": "1.88/1"
         }
       ],
-      "keywords": ["보문역 도보 30m", "성북천 산책·러닝", "동대문시장 인접"]
+      "keywords": ["보문역 1번 출구 1분거리(58m)", "성북천 산책·러닝", "동대문시장 인접"]
     },
     {
       "key": "fees",
@@ -148,7 +173,7 @@
       ],
       "photos": [
         {
-          "src": "photos/corridor-1.webp",
+          "src": "photos/corridor-1.jpg",
           "alt": "관리비에 포함되는 공용 복도 공간",
           "aspectRatio": "4/3"
         }
@@ -163,7 +188,7 @@
       ],
       "photos": [
         {
-          "src": "photos/doorlock-1.webp",
+          "src": "photos/doorlock-1.jpg",
           "alt": "안전한 세대 현관 도어락",
           "aspectRatio": "3/4"
         }
@@ -177,7 +202,7 @@
       "lat": 37.5828,
       "lng": 127.0195
     },
-    "neighborhoodNote": "6호선 보문역 1번 출구 도보 30m, 성북천 산책로 인접"
+    "neighborhoodNote": "6호선 보문역 1번 출구 도보 1분(58m), 성북천 산책로 인접"
   },
   "contact": {
     "kakaoId": "ckpark1001",
